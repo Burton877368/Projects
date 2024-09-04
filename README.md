@@ -1,1 +1,3 @@
-# Hello! This is a collection of my projects, both complete and still in progress.
+# JavaFX Wordle Recreation
+
+This is a project in which I recreated Wordle with Java and JavaFX for the GUI.
