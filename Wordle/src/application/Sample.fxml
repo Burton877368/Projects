@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="600.0" maxWidth="400.0" minHeight="600.0" minWidth="400.0" prefHeight="600.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SampleController">
+   <center>
+      <Pane prefHeight="600.0" prefWidth="400.0" style="-fx-background-color: #303030;" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="Q" layoutX="3.0" layoutY="420.0" mnemonicParsing="false" onAction="#onButtonClicked" prefHeight="55.0" prefWidth="35.0" style="-fx-background-color: #c0c0c0;" text="Q">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button fx:id="W" layoutX="43.0" layoutY="420.0" mnemonicParsing="false" onAction="#onButtonClicked" prefHeight="55.0" prefWidth="35.0" style="-fx-background-color: #c0c0c0;" text="W" />
+            <Button fx:id="E" layoutX="83.0" layoutY="420.0" mnemonicParsing="false" onAction="#onButtonClicked" prefHeight="55.0" prefWidth="35.0" style="-fx-background-color: #c0c0c0;" text="E" />
+            <Button fx:id="R" layoutX="123.0" layoutY="420.0" mnemonicParsing="false" onAction="#onButtonClicked" prefHeight="55.0" prefWidth="35.0" style="-fx-background-color: #c0c0c0;" text="R" />
+            <Button fx:id="T" layoutX="163.0" layoutY="420.0" mnemonicParsing="false" onAction="#onButtonClicked" prefHeight="55.0" prefWidth="35.0" style="-fx-background-color: #c0c0c0;" text="T" />
+            <Button fx:id="Y" layoutX="203.0" layoutY="420.0" mnemonicParsing="false" onAction="#onButtonClicked" prefHeight="55.0" prefWidth="35.0" style="-fx-background-color: #c0c0c0;" text="Y" />
+            <Button fx:id="U" layoutX="243.0" layoutY="420.0" mnemonicParsing="false" onAction="#onButtonClicked" prefHeight="55.0" prefWidth="35.0" style="-fx-background-color: #c0c0c0;" text="U" />
+            <Button fx:id="I" layoutX="283.0" layoutY="420.0" mnemonicParsing="false" onAction="#onButtonClicked" prefHeight="55.0" prefWidth="35.0" style="-fx-background-color: #c0c0c0;" text="I" />
+            <Button fx:id="O" layoutX="323.0" layoutY="420.0" mnemonicParsing="false" onAction="#onButtonClicked" prefHeight="55.0" prefWidth="35.0" style="-fx-background-color: #c0c0c0;" text="O" />
+            <Button fx:id="P" layoutX="363.0" layoutY="420.0" mnemonicParsing="false" onAction="#onButtonClicked" prefHeight="55.0" prefWidth="35.0" style="-fx-background-color: #c0c0c0;" text="P" />
+            <Button fx:id="A" layoutX="23.0" layoutY="480.0" mnemonicParsing="false" onAction="#onButtonClicked" prefHeight="55.0" prefWidth="35.0" style="-fx-background-color: #c0c0c0;" text="A" />
+            <Button fx:id="S" layoutX="63.0" layoutY="480.0" mnemonicParsing="false" onAction="#onButtonClicked" prefHeight="55.0" prefWidth="35.0" style="-fx-background-color: #c0c0c0;" text="S" />
+            <Button fx:id="D" layoutX="103.0" layoutY="480.0" mnemonicParsing="false" onAction="#onButtonClicked" prefHeight="55.0" prefWidth="35.0" style="-fx-background-color: #c0c0c0;" text="D" />
+            <Button fx:id="F" layoutX="143.0" layoutY="480.0" mnemonicParsing="false" onAction="#onButtonClicked" prefHeight="55.0" prefWidth="35.0" style="-fx-background-color: #c0c0c0;" text="F" />
+            <Button fx:id="G" layoutX="183.0" layoutY="480.0" mnemonicParsing="false" onAction="#onButtonClicked" prefHeight="55.0" prefWidth="35.0" style="-fx-background-color: #c0c0c0;" text="G" />
+            <Button fx:id="H" layoutX="223.0" layoutY="480.0" mnemonicParsing="false" onAction="#onButtonClicked" prefHeight="55.0" prefWidth="35.0" style="-fx-background-color: #c0c0c0;" text="H" />
+            <Button fx:id="J" layoutX="263.0" layoutY="480.0" mnemonicParsing="false" onAction="#onButtonClicked" prefHeight="55.0" prefWidth="35.0" style="-fx-background-color: #c0c0c0;" text="J" />
+            <Button fx:id="K" layoutX="303.0" layoutY="480.0" mnemonicParsing="false" onAction="#onButtonClicked" prefHeight="55.0" prefWidth="35.0" style="-fx-background-color: #c0c0c0;" text="K" />
+            <Button fx:id="L" layoutX="343.0" layoutY="480.0" mnemonicParsing="false" onAction="#onButtonClicked" prefHeight="55.0" prefWidth="35.0" style="-fx-background-color: #c0c0c0;" text="L" />
+            <Button fx:id="M" layoutX="303.0" layoutY="540.0" mnemonicParsing="false" onAction="#onButtonClicked" prefHeight="55.0" prefWidth="35.0" style="-fx-background-color: #c0c0c0;" text="M" />
+            <Button fx:id="N" layoutX="263.0" layoutY="540.0" mnemonicParsing="false" onAction="#onButtonClicked" prefHeight="55.0" prefWidth="35.0" style="-fx-background-color: #c0c0c0;" text="N" />
+            <Button fx:id="B" layoutX="223.0" layoutY="540.0" mnemonicParsing="false" onAction="#onButtonClicked" prefHeight="55.0" prefWidth="35.0" style="-fx-background-color: #c0c0c0;" text="B" />
+            <Button fx:id="V" layoutX="183.0" layoutY="540.0" mnemonicParsing="false" onAction="#onButtonClicked" prefHeight="55.0" prefWidth="35.0" style="-fx-background-color: #c0c0c0;" text="V" />
+            <Button fx:id="C" layoutX="143.0" layoutY="540.0" mnemonicParsing="false" onAction="#onButtonClicked" prefHeight="55.0" prefWidth="35.0" style="-fx-background-color: #c0c0c0;" text="C" />
+            <Button fx:id="X" layoutX="103.0" layoutY="540.0" mnemonicParsing="false" onAction="#onButtonClicked" prefHeight="55.0" prefWidth="35.0" style="-fx-background-color: #c0c0c0;" text="X" />
+            <Button fx:id="Z" layoutX="63.0" layoutY="540.0" mnemonicParsing="false" onAction="#onButtonClicked" prefHeight="55.0" prefWidth="35.0" style="-fx-background-color: #c0c0c0;" text="Z" />
+            <Button fx:id="ENTER" layoutX="3.0" layoutY="540.0" mnemonicParsing="false" onAction="#enter" prefHeight="55.0" prefWidth="55.0" style="-fx-background-color: #c0c0c0;" text="ENTER" />
+            <Button fx:id="DELETE" layoutX="343.0" layoutY="540.0" mnemonicParsing="false" onAction="#delete" prefHeight="55.0" prefWidth="55.0" style="-fx-background-color: #c0c0c0;" text="DELETE" />
+            <GridPane layoutX="75.0" layoutY="100.0" prefHeight="300.0" prefWidth="250.0">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="50.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="50.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="50.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="50.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="50.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Label fx:id="label00" alignment="CENTER" contentDisplay="CENTER" layoutX="2.5" layoutY="2.5" prefHeight="45.0" prefWidth="45.0" style="-fx-background-color: #303030; -fx-border-color: #a0a0a0; -fx-border-width: 1.5;" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="Arial Black" size="22.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="label01" alignment="CENTER" contentDisplay="CENTER" prefHeight="45.0" prefWidth="45.0" style="-fx-background-color: #303030; -fx-border-color: #a0a0a0; -fx-border-width: 1.5;" textAlignment="CENTER" textFill="WHITE" GridPane.columnIndex="1">
+                     <font>
+                        <Font name="Arial Black" size="22.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="label10" alignment="CENTER" contentDisplay="CENTER" prefHeight="45.0" prefWidth="45.0" style="-fx-background-color: #303030; -fx-border-color: #a0a0a0; -fx-border-width: 1.5;" textAlignment="CENTER" textFill="WHITE" GridPane.rowIndex="1">
+                     <font>
+                        <Font name="Arial Black" size="22.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="label11" alignment="CENTER" contentDisplay="CENTER" prefHeight="45.0" prefWidth="45.0" style="-fx-background-color: #303030; -fx-border-color: #a0a0a0; -fx-border-width: 1.5;" textAlignment="CENTER" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                     <font>
+                        <Font name="Arial Black" size="22.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="label02" alignment="CENTER" contentDisplay="CENTER" prefHeight="45.0" prefWidth="45.0" style="-fx-background-color: #303030; -fx-border-color: #a0a0a0; -fx-border-width: 1.5;" textAlignment="CENTER" textFill="WHITE" GridPane.columnIndex="2">
+                     <font>
+                        <Font name="Arial Black" size="22.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="label12" alignment="CENTER" contentDisplay="CENTER" prefHeight="45.0" prefWidth="45.0" style="-fx-background-color: #303030; -fx-border-color: #a0a0a0; -fx-border-width: 1.5;" textAlignment="CENTER" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                     <font>
+                        <Font name="Arial Black" size="22.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="label03" alignment="CENTER" contentDisplay="CENTER" prefHeight="45.0" prefWidth="45.0" style="-fx-background-color: #303030; -fx-border-color: #a0a0a0; -fx-border-width: 1.5;" textAlignment="CENTER" textFill="WHITE" GridPane.columnIndex="3">
+                     <font>
+                        <Font name="Arial Black" size="22.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="label13" alignment="CENTER" contentDisplay="CENTER" prefHeight="45.0" prefWidth="45.0" style="-fx-background-color: #303030; -fx-border-color: #a0a0a0; -fx-border-width: 1.5;" textAlignment="CENTER" textFill="WHITE" GridPane.columnIndex="3" GridPane.rowIndex="1">
+                     <font>
+                        <Font name="Arial Black" size="22.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="label20" alignment="CENTER" contentDisplay="CENTER" prefHeight="45.0" prefWidth="45.0" style="-fx-background-color: #303030; -fx-border-color: #a0a0a0; -fx-border-width: 1.5;" textAlignment="CENTER" textFill="WHITE" GridPane.rowIndex="2">
+                     <font>
+                        <Font name="Arial Black" size="22.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="label21" alignment="CENTER" contentDisplay="CENTER" prefHeight="45.0" prefWidth="45.0" style="-fx-background-color: #303030; -fx-border-color: #a0a0a0; -fx-border-width: 1.5;" textAlignment="CENTER" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                     <font>
+                        <Font name="Arial Black" size="22.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="label04" alignment="CENTER" contentDisplay="CENTER" prefHeight="45.0" prefWidth="45.0" style="-fx-background-color: #303030; -fx-border-color: #a0a0a0;" textAlignment="CENTER" textFill="WHITE" GridPane.columnIndex="4">
+                     <font>
+                        <Font name="Arial Black" size="22.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="label22" alignment="CENTER" contentDisplay="CENTER" prefHeight="45.0" prefWidth="45.0" style="-fx-background-color: #303030; -fx-border-color: #a0a0a0; -fx-border-width: 1.5;" textAlignment="CENTER" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                     <font>
+                        <Font name="Arial Black" size="22.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="label14" alignment="CENTER" contentDisplay="CENTER" prefHeight="45.0" prefWidth="45.0" style="-fx-background-color: #303030; -fx-border-color: #a0a0a0; -fx-border-width: 1.5;" textAlignment="CENTER" textFill="WHITE" GridPane.columnIndex="4" GridPane.rowIndex="1">
+                     <font>
+                        <Font name="Arial Black" size="22.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="label34" alignment="CENTER" contentDisplay="CENTER" prefHeight="45.0" prefWidth="45.0" style="-fx-background-color: #303030; -fx-border-color: #a0a0a0; -fx-border-width: 1.5;" textAlignment="CENTER" textFill="WHITE" GridPane.columnIndex="4" GridPane.rowIndex="3">
+                     <font>
+                        <Font name="Arial Black" size="22.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="label24" alignment="CENTER" contentDisplay="CENTER" prefHeight="45.0" prefWidth="45.0" style="-fx-background-color: #303030; -fx-border-color: #a0a0a0; -fx-border-width: 1.5;" textAlignment="CENTER" textFill="WHITE" GridPane.columnIndex="4" GridPane.rowIndex="2">
+                     <font>
+                        <Font name="Arial Black" size="22.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="label23" alignment="CENTER" contentDisplay="CENTER" prefHeight="45.0" prefWidth="45.0" style="-fx-background-color: #303030; -fx-border-color: #a0a0a0; -fx-border-width: 1.5;" textAlignment="CENTER" textFill="WHITE" GridPane.columnIndex="3" GridPane.rowIndex="2">
+                     <font>
+                        <Font name="Arial Black" size="22.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="label30" alignment="CENTER" contentDisplay="CENTER" prefHeight="45.0" prefWidth="45.0" style="-fx-background-color: #303030; -fx-border-color: #a0a0a0; -fx-border-width: 1.5;" textAlignment="CENTER" textFill="WHITE" GridPane.rowIndex="3">
+                     <font>
+                        <Font name="Arial Black" size="22.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="label31" alignment="CENTER" contentDisplay="CENTER" prefHeight="45.0" prefWidth="45.0" style="-fx-background-color: #303030; -fx-border-color: #a0a0a0; -fx-border-width: 1.5;" textAlignment="CENTER" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                     <font>
+                        <Font name="Arial Black" size="22.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="label32" alignment="CENTER" contentDisplay="CENTER" prefHeight="45.0" prefWidth="45.0" style="-fx-background-color: #303030; -fx-border-color: #a0a0a0; -fx-border-width: 1.5;" textAlignment="CENTER" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="3">
+                     <font>
+                        <Font name="Arial Black" size="22.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="label33" alignment="CENTER" contentDisplay="CENTER" prefHeight="45.0" prefWidth="45.0" style="-fx-background-color: #303030; -fx-border-color: #a0a0a0; -fx-border-width: 1.5;" textAlignment="CENTER" textFill="WHITE" GridPane.columnIndex="3" GridPane.rowIndex="3">
+                     <font>
+                        <Font name="Arial Black" size="22.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="label40" alignment="CENTER" contentDisplay="CENTER" prefHeight="45.0" prefWidth="45.0" style="-fx-background-color: #303030; -fx-border-color: #a0a0a0; -fx-border-width: 1.5;" textAlignment="CENTER" textFill="WHITE" GridPane.rowIndex="4">
+                     <font>
+                        <Font name="Arial Black" size="22.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="label41" alignment="CENTER" contentDisplay="CENTER" prefHeight="45.0" prefWidth="45.0" style="-fx-background-color: #303030; -fx-border-color: #a0a0a0; -fx-border-width: 1.5;" textAlignment="CENTER" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="4">
+                     <font>
+                        <Font name="Arial Black" size="22.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="label50" alignment="CENTER" contentDisplay="CENTER" prefHeight="45.0" prefWidth="45.0" style="-fx-background-color: #303030; -fx-border-color: #a0a0a0; -fx-border-width: 1.5;" textAlignment="CENTER" textFill="WHITE" GridPane.rowIndex="5">
+                     <font>
+                        <Font name="Arial Black" size="22.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="label51" alignment="CENTER" contentDisplay="CENTER" prefHeight="45.0" prefWidth="45.0" style="-fx-background-color: #303030; -fx-border-color: #a0a0a0; -fx-border-width: 1.5;" textAlignment="CENTER" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="5">
+                     <font>
+                        <Font name="Arial Black" size="22.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="label42" alignment="CENTER" contentDisplay="CENTER" prefHeight="45.0" prefWidth="45.0" style="-fx-background-color: #303030; -fx-border-color: #a0a0a0; -fx-border-width: 1.5;" textAlignment="CENTER" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="4">
+                     <font>
+                        <Font name="Arial Black" size="22.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="label43" alignment="CENTER" contentDisplay="CENTER" prefHeight="45.0" prefWidth="45.0" style="-fx-background-color: #303030; -fx-border-color: #a0a0a0; -fx-border-width: 1.5;" textAlignment="CENTER" textFill="WHITE" GridPane.columnIndex="3" GridPane.rowIndex="4">
+                     <font>
+                        <Font name="Arial Black" size="22.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="label44" alignment="CENTER" contentDisplay="CENTER" prefHeight="45.0" prefWidth="45.0" style="-fx-background-color: #303030; -fx-border-color: #a0a0a0; -fx-border-width: 1.5;" textAlignment="CENTER" textFill="WHITE" GridPane.columnIndex="4" GridPane.rowIndex="4">
+                     <font>
+                        <Font name="Arial Black" size="22.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="label54" alignment="CENTER" contentDisplay="CENTER" prefHeight="45.0" prefWidth="45.0" style="-fx-background-color: #303030; -fx-border-color: #a0a0a0; -fx-border-width: 1.5;" textAlignment="CENTER" textFill="WHITE" GridPane.columnIndex="4" GridPane.rowIndex="5">
+                     <font>
+                        <Font name="Arial Black" size="22.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="label53" alignment="CENTER" contentDisplay="CENTER" prefHeight="45.0" prefWidth="45.0" style="-fx-background-color: #303030; -fx-border-color: #a0a0a0; -fx-border-width: 1.5;" textAlignment="CENTER" textFill="WHITE" GridPane.columnIndex="3" GridPane.rowIndex="5">
+                     <font>
+                        <Font name="Arial Black" size="22.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="label52" alignment="CENTER" contentDisplay="CENTER" prefHeight="45.0" prefWidth="45.0" style="-fx-background-color: #303030; -fx-border-color: #a0a0a0; -fx-border-width: 1.5;" textAlignment="CENTER" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="5">
+                     <font>
+                        <Font name="Arial Black" size="22.0" />
+                     </font>
+                  </Label>
+               </children>
+            </GridPane>
+            <Label layoutX="135.0" layoutY="26.0" text="Wordle" textFill="WHITE">
+               <font>
+                  <Font name="Rockwell" size="36.0" />
+               </font>
+            </Label>
+            <Button fx:id="reset_button" layoutX="32.0" layoutY="35.0" mnemonicParsing="false" onAction="#reset" style="-fx-background-color: #c0c0c0;" text="Reset" />
+         </children>
+      </Pane>
+   </center>
+</BorderPane>
